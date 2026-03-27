@@ -48,3 +48,24 @@ Emoción (3/10) la emoción es lo de menos, debe tener una emoción neutral para
   1. Equipos
   2. Cuotas
   3. Contexto del partido
+  4. 
+## 3. Arquitectura de Memoria
+
+### Memoria Semántica (LTM) – Conocimiento Permanente
+
+| Tipo de Memoria | Categoría de Datos | Descripción | Ejemplo |
+|----------------|-------------------|------------|--------|
+| Semántica (LTM) | Equipos | Información histórica de equipos | "Real Madrid: 5 últimos partidos ganados" |
+| Semántica (LTM) | Ligas | Datos de competiciones | "La Liga, Premier League" |
+| Semántica (LTM) | Cuotas | Rangos de probabilidades | "Cuota 1.5 = favorito" |
+| Semántica (LTM) | Tipos de apuesta | Reglas de apuestas | "Over/Under, Parlay" |
+| Semántica (LTM) | Estrategias | Estrategias de apuesta | "Apuesta conservadora vs agresiva" |
+
+### Memoria Episódica (LTM) – Usuario
+
+| Tipo de Memoria | Categoría | Descripción | Ejemplo |
+|----------------|----------|------------|--------|
+| Episódica (LTM) | Perfil usuario | Preferencias del usuario | "Le gusta apostar al Barcelona" |
+| Episódica (LTM) | Historial | Apuestas anteriores | "Perdió apuesta anterior 🔥" |
+
+El sistema utiliza memoria semántica para conocimiento general de apuestas y memoria episódica para personalizar recomendaciones según el usuario.
