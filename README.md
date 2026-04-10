@@ -69,3 +69,29 @@ Emoción (3/10) la emoción es lo de menos, debe tener una emoción neutral para
 | Episódica (LTM) | Historial | Apuestas anteriores | "Perdió apuesta anterior 🔥" |
 
 El sistema utiliza memoria semántica para conocimiento general de apuestas y memoria episódica para personalizar recomendaciones según el usuario.
+
+## 3. Control Ejecutivo del Sistema
+
+El sistema implementa un mecanismo de control ejecutivo que regula la toma de decisiones del bot, priorizando acciones según el contexto del usuario.
+
+---
+
+### Estados del Sistema
+
+| Estado | Condición | Acción |
+|-------|----------|--------|
+| Análisis | Usuario hace pregunta | Evaluar datos y responder |
+| Recomendación | Usuario quiere apostar | Generar sugerencia |
+| Advertencia | Riesgo alto detectado | Alertar al usuario ⚠️ |
+| Solicitud de datos | Información incompleta | Pedir más información |
+| Ignorar | Mensaje irrelevante | No procesar |
+
+---
+
+### Reglas de Decisión
+
+1. Si el usuario hace una pregunta → ACTIVAR modo análisis  
+2. Si el usuario expresa intención de apuesta → ACTIVAR recomendación  
+3. Si se detecta alto riesgo → PRIORIDAD a advertencia  
+4. Si falta información → DETENER flujo y pedir datos  
+5. Si el mensaje es ruido → IGNORAR
