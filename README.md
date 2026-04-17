@@ -148,3 +148,4 @@ Bot: Entiendo la frustración. Podemos revisar qué falló para mejorar tu próx
 
 Usuario: Apostar  
 Bot: Necesito más información. ¿A qué equipo o partido te refieres?
+El sistema aplica principios de pragmática para interpretar intención, contexto y tono del usuario, permitiendo respuestas más humanas, seguras y adaptadas a situaciones como ambigüedad o sarcasmo.
