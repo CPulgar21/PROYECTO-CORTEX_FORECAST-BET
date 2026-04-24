@@ -14,6 +14,46 @@ Lenguaje (5/10) no es esencial que nuestra IA tenga el mejor habla del mundo, so
 Emoción (3/10) la emoción es lo de menos, debe tener una emoción neutral para no incitar a las apuestas deportivas. 
 <img width="1092" height="778" alt="image" src="https://github.com/user-attachments/assets/6afd71eb-50c0-4c44-abe7-2f213767b1b9" />
 
+## Procesamiento Perceptual del Sistema
+
+El sistema transforma datos de entrada (sensación) en información significativa (percepción) para la toma de decisiones en apuestas deportivas.
+
+---
+
+### Sensación (Datos Crudos)
+
+Corresponde a la información que entra al sistema sin interpretación.
+
+Ejemplos:
+- Texto del usuario: "Voy con todo al Madrid 🔥"
+- Emojis: 🔥 💀
+- Números: cuotas, dinero
+- Equipos: Real Madrid, Barcelona
+- Fecha y hora del partido
+
+---
+
+### Percepción (Interpretación)
+
+El sistema interpreta los datos y les da significado.
+
+Ejemplos:
+- "Voy con todo" → intención de apuesta
+- 🔥 → emoción alta
+- Madrid → equipo seleccionado
+- Cuota baja → baja ganancia, menor riesgo
+
+---
+
+### Transformación Sensación → Percepción
+
+El sistema aplica reglas para interpretar la entrada:
+
+- Detecta palabras clave → intención
+- Identifica equipos → contexto deportivo
+- Analiza emojis → estado emocional
+- Reconoce números → cuotas o dinero
+
 ## 2. Arquitectura de Atención con las reglas lógicas definidas
 ## Reglas de Atención
 1. Filtrado de Ruido
