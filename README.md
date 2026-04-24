@@ -14,6 +14,41 @@ Lenguaje (5/10) no es esencial que nuestra IA tenga el mejor habla del mundo, so
 Emoción (3/10) la emoción es lo de menos, debe tener una emoción neutral para no incitar a las apuestas deportivas. 
 <img width="1092" height="778" alt="image" src="https://github.com/user-attachments/assets/6afd71eb-50c0-4c44-abe7-2f213767b1b9" />
 
+## 2. Arquitectura de Atención con las reglas lógicas definidas
+## Reglas de Atención
+1. Filtrado de Ruido
+- Si el mensaje no contiene términos deportivos → IGNORAR
+2. Prioridad de Entidades Clave
+- Detectar y priorizar:
+  - Equipos
+  - Ligas
+  - Cuotas
+  - Tipos de apuesta
+3. Regla de Longitud (Carga Cognitiva)
+- Si el mensaje tiene más de 500 palabras:
+  → Extraer únicamente:
+     - Sustantivos clave
+     - Última frase del mensaje
+4. Detección de Intención
+- Si contiene:
+  - "apostar", "voy con", "le meto"
+  → Clasificar como INTENCIÓN DE APUESTA
+5. Detección de Pregunta
+- Si contiene:
+  - "?", "qué", "cómo", "vale la pena"
+  → Clasificar como CONSULTA
+6. Filtro Emocional
+- Si contiene emojis como 🔥💀 o texto impulsivo:
+  → Marcar como ALTO RIESGO
+7. Información Insuficiente
+- Si no hay equipo o partido:
+  → Solicitar más datos
+8. Priorización Top-Down
+- El sistema SIEMPRE prioriza:
+  1. Equipos
+  2. Cuotas
+  3. Contexto del partido
+
 ## 3. Arquitectura de Memoria
 
 ### Memoria Semántica (LTM) – Conocimiento Permanente
