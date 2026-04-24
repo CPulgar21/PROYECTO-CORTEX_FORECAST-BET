@@ -5,7 +5,8 @@
 -Carlos Pulgar
 
 ## PERFIL DEL AGENTE: 
-<img width="1471" height="798" alt="image" src="https://github.com/user-attachments/assets/a400d2b9-ae49-4362-bf85-6d5c4f0e2138" 
+<img width="824" height="661" alt="Captura de pantalla 2026-04-24 081818" src="https://github.com/user-attachments/assets/4e1e1154-a0b0-4dc4-a0b9-c4954c126319" />
+
   
 ## JUSTIFICACIÓN PROCESOS COGNITIVOS 
 Nuestro bot necesita mucha memoria (10/10) ya que tiene que memorizar todas las preguntas anteriores y así poder dar los mejores pronosticos.
