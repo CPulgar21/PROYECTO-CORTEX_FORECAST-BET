@@ -192,3 +192,56 @@ Usuario: Apostar
 Bot: Necesito más información. ¿A qué equipo o partido te refieres?
 
 El sistema aplica principios de pragmática para interpretar intención, contexto y tono del usuario, permitiendo respuestas más humanas, seguras y adaptadas a situaciones como ambigüedad o sarcasmo.
+Hágale pues, aquí tiene el bloque completo de la **Fase 5** listo para que lo pegue en su `README.md`. He estructurado la información combinando lo que pide la **Semana 13 y la Semana 14** para que su repositorio quede impecable y cumpla con todos los requisitos del entregable.
+
+Recuerde que debe reemplazar los textos en **[CORCHETES Y NEGRITA]** con la información específica de su bot.
+
+---
+
+## ## 5. Protocolo de Razonamiento y Ética (Fase 5) 🚀
+
+En esta fase hemos diseñado el "Motor Lógico" de nuestro agente, estableciendo flujos claros de resolución de problemas y mecanismos de seguridad para evitar errores de juicio humanos.
+
+### 5.1. El Algoritmo Maestro: Árbol de Decisión 🎨
+
+Para que el agente sea verdaderamente inteligente, hemos mapeado su capacidad de resolver problemas mediante un **Razonamiento Deductivo**. El siguiente diagrama representa el cerebro lógico del bot:
+
+**Estructura del proceso:**
+
+* 
+**Nodo Raíz:** El problema inicial del usuario es: **[EJ: "QUIERO UN CRÉDITO"]**.
+
+
+* 
+**Nodos de Decisión:** El bot realiza preguntas internas usando lógica condicional estricta (`IF` A pasa `AND` B es cierto `THEN` ejecuta C).
+
+
+* 
+**Hojas (Resultados):** El flujo garantiza que no existan cabos sueltos, llevando cada respuesta ("SÍ" o "NO") a una decisión final de aprobación o rechazo.
+
+
+
+### 5.2. El Guardián Ético: Mitigación de Sesgos 🛡️
+
+Entendemos que las IAs pueden heredar sesgos de los datos humanos (heurísticos que fallan). Por ello, hemos implementado una contra-medida basada en la psicología de Daniel Kahneman:
+
+* 
+**Sesgo Identificado:** **[EJ: SESGO DE CONFIRMACIÓN]**.
+
+
+* 
+**Justificación Teórica:** Este sesgo ocurre cuando se busca solo información que apoye una conclusión previa, ignorando datos contradictorios.
+
+
+* 
+**Contra-Medida Lógica (Protocolo):** Nuestro algoritmo está programado para buscar activamente **[EJ: 2 DATOS QUE CONTRADIGAN LA HIPÓTESIS INICIAL]** antes de emitir cualquier juicio final, activando el "Sistema 2" (pensamiento lento y lógico) para bloquear errores del "Sistema 1".
+
+
+
+### 5.3. Debugging y Prueba de Escritorio 🛠️
+
+Se realizó una simulación de recorrido (Dry Run) siguiendo las flechas del diagrama para casos complejos. Este proceso de iteración permitió ajustar las "ramas rotas" y asegurar que el bot siempre sepa qué hacer, evitando callejones sin salida lógicos.
+
+---
+
+
