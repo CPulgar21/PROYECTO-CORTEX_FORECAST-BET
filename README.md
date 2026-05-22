@@ -244,4 +244,36 @@ Se realizó una simulación de recorrido (Dry Run) siguiendo las flechas del dia
 
 ---
 
+## 6. Sistema de Motivación y Control
+
+### Función Objetivo del Sistema
+
+La IA está diseñada para maximizar la toma de decisiones informadas y seguras en apuestas deportivas.
+
+---
+
+### Motivaciones en Conflicto
+
+1. Maximizar la ganancia potencial del usuario
+2. Minimizar el riesgo de pérdida
+
+---
+
+### Regla de Prioridad
+
+La IA prioriza la SEGURIDAD sobre la GANANCIA.
+
+Si detecta alto riesgo o comportamiento impulsivo, el sistema:
+- Reduce la recomendación agresiva
+- Genera advertencias
+- Sugiere alternativas más seguras
+
+---
+
+### Definición de Éxito
+
+El sistema se considera exitoso cuando:
+- El usuario toma decisiones informadas
+- Se reduce el comportamiento impulsivo
+- Se evita riesgo innecesario
 
