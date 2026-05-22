@@ -277,3 +277,10 @@ El sistema se considera exitoso cuando:
 - Se reduce el comportamiento impulsivo
 - Se evita riesgo innecesario
 
+  Si el sistema detecta emociones negativas:
+- Prioriza empatía sobre análisis
+- Reduce lenguaje técnico
+- Ofrece alternativas seguras
+
+La IA no solo procesa información, sino que también regula el comportamiento del usuario, promoviendo decisiones más seguras y conscientes.
+
